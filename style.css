@@ -1,0 +1,238 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  background-color: #fff;
+  height: 10rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.432);
+}
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+nav .nav-links-container img {
+  width: 10vh;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 10vh;
+  height: auto;
+  background-color: #f5f4f8;
+}
+
+.notification i {
+  font-size: 2rem;
+}
+
+.header-avatar {
+  width: 10vh;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.notification-and-avatar {
+  display: flex;
+  height: 10vh;
+  width: 15%;
+  justify-content: space-evenly;
+}
+
+section.hero {
+  background-color: #7550fe;
+}
+
+section.hero > div {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.hero > div h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+section.hero > div p {
+  color: #bca8ff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+section.hero > div button {
+  border: solid 0.5px rgb(128, 128, 128);
+  border-radius: 7px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 10vw;
+  height: 5vh;
+  padding: 10px;
+  cursor: pointer;
+}
+
+section.hero > div button:nth-of-type(1) {
+  background-color: #1acb98;
+  color: white;
+}
+
+section.hero > div button:nth-of-type(2) {
+  background-color: #ffffff;
+}
+
+.general-info {
+  padding-left: 5vw;
+  display: flex;
+  background-color: #fff;
+  height: 10rem;
+  justify-content: space-evenly;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.432);
+}
+
+.general-info > div {
+  display: flex;
+  align-items: center;
+  width: 27%;
+  font-size: 1.5rem;
+}
+
+.general-info > div p {
+  margin: 1vh;
+}
+
+.general-info > div p:nth-of-type(1) {
+  font-weight: 800;
+}
+
+.general-info > div p:nth-of-type(2) {
+  font-weight: 400;
+}
+
+.general-info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: #ffeeda;
+  color: #c28135;
+  margin-right: 2vh;
+}
+
+.all-courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-inline: auto;
+  row-gap: 15vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+section.all-courses-container .cards-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 20%;
+  height: 50vh;
+  border-radius: 1vh;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.432);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-area {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-area p {
+  margin-bottom: 0;
+}
+
+.text-area div {
+  margin-top: 20px;
+}
+
+.text-area div:nth-of-type(3) span {
+  text-decoration: line-through;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px black;
+  padding: 15px;
+}
+
+.card-bottom i {
+  font-size: 20px;
+}
+
+.card-bottom > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar-container {
+  width: 4vh;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 10vh;
+  margin-inline: auto;
+  border-top: solid 1px black;
+}
